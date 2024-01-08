@@ -1,0 +1,26 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: #FF3232;
+}
+
+.blok {
+    width: 450px;
+    padding: 25px;
+    border-radius: 8px;
+    background: whitesmoke;
+}
+
+.blok .gradient-blok {
+    width: 100%;
+    height: 220px;
+    background: linear-gradient(to left top, #FF3232, #190505);
+}

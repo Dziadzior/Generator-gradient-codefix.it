@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="design.css">
+    <title>Document</title>
+</head>
+<body>
+
+
+    <div class="blok">
+        <div class="gradient-blok">
+            <div class="wiersz opcje">
+                <div class="kolumna kierunek">
+                    <p>Kierunek</p>
+                    <div class="wybierz-blok">
+                        <select>
+                            <option value="to top">Góra</option>
+                            <option value="to bottom">Dół</option>
+                            <option value="to right">Prawo</option>
+                            <option value="to left">Lewo</option>
+                            <option value="to right top" selected>Prawo góra</option>
+                            <opttion value="to right bottom">Prawo dół</opttion>
+                            <option value="to left top">Lewo góra</option>
+                            <option value="to left bottom">Lewo dół</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="kolumna kolory">
+                    <p>Kolory</p>
+                    <div class="pola">
+                        <input type="color" value="#FF3232">
+                        <input type="color" value="#190505">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <textarea class="wiersz">" background: linear-gradient(to left top, #FF3232, #190505) "</textarea>
+        <div class="wiersz przyciski">
+            <button class="odswiez">Odśwież Kolory</button>
+            <button class="kopiuj">Kopiuj Kod</button>
+        </div>
+    </div>
+
+
+</body>
+</html>
