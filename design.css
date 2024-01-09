@@ -24,3 +24,74 @@ body {
     height: 220px;
     background: linear-gradient(to left top, #FF3232, #190505);
 }
+
+.blok textarea {
+    width: 100%;
+    padding: 10px 15px;
+    color: gray;
+    font-size: 1rem;
+    border: 1px solid ​#707070;
+    border-radius: 8px;
+    resize: none;
+}
+
+.blok .wiersz {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0;
+}
+
+.wiersz :where(.kolumna, button) {
+    width: calc(100% / 2 - 12px);
+}
+
+.opcje p {
+    margin-bottom: 10px;
+    font-size: 1.2rem;
+}
+
+.opcje .wybierz-blok {
+    padding: 10px 15px;
+    border: 1px solid ​#707070;
+    border-radius: 8px;
+}
+
+.wybierz-blok select {
+    width: 100%;
+    font-size: 1.1rem;
+    background: none;
+    border: none;
+    outline: none;
+}
+
+.opcje .kolory {
+    margin-left: 80px;;
+}
+
+.kolory input {
+    width: calc(100% / 2 - 20px);
+    height: 41px;
+}
+
+.kolory input:last-child {
+    margin-left: 10px;
+}
+
+.przyciski button {
+    margin: 0 0 -15px;
+    padding: 15px 0;
+    color: whitesmoke;
+    font-size: 1rem;
+    border: none;
+    border-radius: 8px;
+    outline: none;
+    cursor: pointer;
+}
+
+.przyciski .odswiez {
+    background: #535353;
+}
+
+.przyciski .kopiuj {
+    background: #ff2b2b;
+}
